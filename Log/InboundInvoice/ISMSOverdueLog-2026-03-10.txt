@@ -1,0 +1,71 @@
+2026-03-10 09:31:48.1942 Info ------Start Overdue Invoice Job------ 
+2026-03-10 09:31:49.2216 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_11_20260310000041.zip 
+2026-03-10 09:31:49.5018 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_12_20260310090038.zip 
+2026-03-10 09:31:50.1191 Info extract file: sales_order_status_10_20260309171253.zip 
+2026-03-10 09:31:50.1528 Info extract file: sales_order_status_11_20260310000041.zip 
+2026-03-10 09:31:50.1948 Info extract file: sales_order_status_12_20260310090038.zip 
+2026-03-10 09:31:50.2449 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-10 09:31:50.2914 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-10 09:31:50.3286 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-10 09:31:50.3915 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-10 09:31:50.4468 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-10 09:31:50.4900 Info extract file: sales_order_status_6_20260306090040.zip 
+2026-03-10 09:31:50.5406 Info extract file: sales_order_status_7_20260306180040.zip 
+2026-03-10 09:31:50.5843 Info extract file: sales_order_status_8_20260307090044.zip 
+2026-03-10 09:31:50.6324 Info extract file: sales_order_status_9_20260309134629.zip 
+2026-03-10 09:31:54.6094 Error Overdue Invoice job failed System.Data.SqlClient.SqlException (0x80131904): Subqueries are not allowed in this context. Only scalar expressions are allowed.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<ExecuteNonQuery>d__0.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 16
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 186
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Program.<Main>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Program.cs:line 34
+ClientConnectionId:d8e5c2c0-c2c3-4ebd-8deb-4a6413ab476d
+Error Number:1046,State:1,Class:15
+2026-03-10 10:33:07.2202 Info ------Start Overdue Invoice Job------ 
+2026-03-10 10:33:08.0467 Error Overdue Invoice job failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<>c__DisplayClass1_0.<<ExecJob>b__2>d.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.S3Helper.<ListAndProcessAsync>d__3.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\S3Helper.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 36
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Program.<Main>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Program.cs:line 34
+2026-03-10 11:15:24.2538 Info ------Start Overdue Invoice Job------ 
+2026-03-10 11:15:25.1027 Error Overdue Invoice job failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<>c__DisplayClass1_0.<<ExecJob>b__2>d.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.S3Helper.<ListAndProcessAsync>d__3.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\S3Helper.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 36
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Program.<Main>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Program.cs:line 34

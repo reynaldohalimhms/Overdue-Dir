@@ -1,0 +1,157 @@
+2026-03-09 17:20:59.6514 Info ------Start Overdue Invoice Job------
+2026-03-09 17:21:00.8140 Error Overdue Invoice job failed
+2026-03-09 17:45:42.9613 Info ------Start Overdue Invoice Job------
+2026-03-09 17:45:43.7582 Error Overdue Invoice job failed
+2026-03-09 17:46:41.2572 Info ------Start Overdue Invoice Job------ 
+2026-03-09 17:46:42.1859 Error Overdue Invoice job failed Amazon.S3.AmazonS3Exception: User: arn:aws:iam::905418148926:user/dev-pmi-microservice-access is not authorized to perform: s3:ListBucket on resource: "arn:aws:s3:::qa-deep-ayo-hero-integration-data" because no resource-based policy allows the s3:ListBucket action ---> Amazon.Runtime.Internal.HttpErrorResponseException: The remote server returned an error: (403) Forbidden. ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.HttpRequest.<GetResponseAsync>d__23.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\HttpHandler\_bcl\HttpWebRequestFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpRequest.<GetResponseAsync>d__23.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\HttpHandler\_bcl\HttpWebRequestFactory.cs:line 371
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.HttpHandler`1.<InvokeAsync>d__11`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\HttpHandler\HttpHandler.cs:line 241
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.RedirectHandler.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.Unmarshaller.<InvokeAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.S3.Internal.AmazonS3ResponseHandler.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorHandler.<InvokeAsync>d__5`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.HandleExceptionStream(IRequestContext requestContext, IWebResponseData httpErrorResponse, HttpErrorResponseException exception, Stream responseStream) in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\ErrorHandler\HttpErrorResponseExceptionHandler.cs:line 159
+   at Amazon.Runtime.Internal.HttpErrorResponseExceptionHandler.<HandleExceptionAsync>d__2.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\ErrorHandler\HttpErrorResponseExceptionHandler.cs:line 91
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ExceptionHandler`1.<HandleAsync>d__6.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\ErrorHandler\ExceptionHandler.cs:line 45
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorHandler.<ProcessExceptionAsync>d__8.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\ErrorHandler\ErrorHandler.cs:line 202
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorHandler.<InvokeAsync>d__5`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\ErrorHandler\ErrorHandler.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.Signer.<InvokeAsync>d__1`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\Handlers\Signer.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.S3.Internal.S3Express.S3ExpressPreSigner.<InvokeAsync>d__5`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Services\S3\Custom\Internal\S3Express\S3ExpressPreSigner.cs:line 99
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.<InvokeAsync>d__2`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Amazon.Runtime.Internal.EndpointDiscoveryHandler.<InvokeAsync>d__2`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\Handlers\EndpointDiscoveryHandler.cs:line 93
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Amazon.Runtime.Internal.RetryHandler.<InvokeAsync>d__10`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\RetryHandler\RetryHandler.cs:line 207
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.BaseAuthResolverHandler.<InvokeAsync>d__2`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\Handlers\BaseAuthResolverHandler.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.CallbackHandler.<InvokeAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.S3.Internal.AmazonS3ExceptionHandler.<InvokeAsync>d__1`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Services\S3\Custom\Internal\AmazonS3ExceptionHandler.cs:line 61
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.ErrorCallbackHandler.<InvokeAsync>d__5`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\Handlers\ErrorCallbackHandler.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.MetricsHandler.<InvokeAsync>d__1`1.MoveNext() in C:\codebuild\tmp\output\src1253659573\src\aws-sdk-net\sdk\src\Core\Amazon.Runtime\Pipeline\Handlers\MetricsHandler.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Amazon.Runtime.Internal.BindingRedirectCheckHandler.<InvokeAsync>d__2`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.S3Helper.<ListAndProcessAsync>d__3.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\S3Helper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 36
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Program.<Main>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Program.cs:line 34
+2026-03-09 17:57:16.4060 Info ------Start Overdue Invoice Job------ 
+2026-03-09 17:57:17.1674 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_10_20260309171253.zip 
+2026-03-09 17:57:17.4363 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-09 17:57:17.6532 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-09 17:57:17.8756 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-09 17:57:18.1289 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-09 17:57:18.3529 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-09 17:57:18.5758 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_6_20260306090040.zip 
+2026-03-09 17:57:18.7820 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_7_20260306180040.zip 
+2026-03-09 17:57:19.0228 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_8_20260307090044.zip 
+2026-03-09 17:57:19.2565 Info Downloading: s3://qa-deep-ayo-hero-integration-data/outbound/hms/sales_order_status/sales_order_status_9_20260309134629.zip 
+2026-03-09 17:57:19.8824 Info extract file: sales_order_status_10_20260309171253.zip 
+2026-03-09 17:57:19.9330 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-09 17:57:19.9625 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-09 17:57:19.9975 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-09 17:57:20.0335 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-09 17:57:20.0551 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-09 17:57:20.0918 Info extract file: sales_order_status_6_20260306090040.zip 
+2026-03-09 17:57:20.1126 Info extract file: sales_order_status_7_20260306180040.zip 
+2026-03-09 17:57:20.1366 Info extract file: sales_order_status_8_20260307090044.zip 
+2026-03-09 17:57:20.1607 Info extract file: sales_order_status_9_20260309134629.zip 
+2026-03-09 17:57:20.2390 Error Overdue Invoice job failed System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<ExecuteNonQuery>d__0.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 11
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Program.<Main>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Program.cs:line 34

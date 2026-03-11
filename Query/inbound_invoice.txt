@@ -1,0 +1,96 @@
+﻿DECLARE @env varchar(3) = '$$ENVIRONMENT$$';
+DECLARE @areacode varchar(3) = '$$AREA_CODE$$';
+DECLARE @dbname varchar(50) = '$$DB_NAME$$';
+DECLARE @filename varchar(40) = '$$FILE_NAME$$';
+
+DECLARE @ErrorLog TABLE (
+	area_code varchar(3),
+    file_name [varchar](40),
+	exec_start datetime,
+	exec_end datetime,
+	msg varchar(max)
+);
+
+BEGIN TRY --INSERT INTO OTHER ACTION
+    SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+    BEGIN TRANSACTION;
+    
+    /*UPDATE FLAGGING ENDED*/
+    BEGIN TRY
+        IF EXISTS(SELECT TOP 1 1 FROM [Users].[dbo].iSMSOverdue_InvoiceTemp tmp WITH (NOLOCK) WHERE RIGHT(LEFT(tmp.invoice_legal_number, 4), 3) = @areacode AND tmp.status = 'E')
+        BEGIN
+            PRINT 'UPDATE FLAGGING ENDED';
+            UPDATE SalesOrder
+            SET 
+                SalesOrder.SalesOrderConfirmationNumber = '212-OK',
+                SalesOrder.SalesOrderModDate = GETDATE(),
+                SalesOrder.SalesOrderDDMSiteId  = dbo.funcDDMSite(), 
+                SalesOrder.SalesOrderDDMBatch  = dbo.funcDDMBatch()
+            FROM SalesOrder
+            INNER JOIN Invoice ON SalesOrder.SalesOrderId = Invoice.Invoice_SalesOrderId
+            INNER JOIN [Users].[dbo].iSMSOverdue_InvoiceTemp tmp ON Invoice.InvoiceLegalNumber = tmp.invoice_legal_number
+            WHERE RIGHT(LEFT(tmp.invoice_legal_number, 4), 3) = @areacode 
+            AND tmp.status = 'E'
+            AND SalesOrder.SalesOrderConfirmationNumber = '212'
+            AND SalesOrder.SalesOrderStatus = 'C';
+            PRINT 'UPDATE FLAGGING ENDED DONE';
+        END
+    END TRY
+        
+    BEGIN CATCH
+        SET @err  = 'Error in update flagging ended: ' + @areacode + ' ' + ERROR_MESSAGE();
+        THROW 50000, @so_err, 1;
+    END CATCH
+
+    BEGIN TRY
+        IF EXISTS(SELECT TOP 1 1 FROM [Users].[dbo].iSMSOverdue_InvoiceTemp tmp WITH (NOLOCK) WHERE RIGHT(LEFT(tmp.invoice_legal_number, 4), 3) = @areacode AND tmp.status = 'X')
+        BEGIN
+            PRINT 'UPDATE FLAGGING CANCEL';
+            UPDATE SalesOrder
+            SET 
+                SalesOrder.SalesOrderConfirmationNumber = '212-X', 
+                SalesOrder.SalesOrderIsRequestForCancellation = 1,
+                SalesOrder.SalesOrderModDate = GETDATE(),
+                SalesOrder.SalesOrderDDMSiteId  = dbo.funcDDMSite(), 
+                SalesOrder.SalesOrderDDMBatch  = dbo.funcDDMBatch()
+            FROM SalesOrder
+            INNER JOIN Invoice ON SalesOrder.SalesOrderId = Invoice.Invoice_SalesOrderId
+            INNER JOIN [Users].[dbo].iSMSOverdue_InvoiceTemp tmp ON Invoice.InvoiceLegalNumber = tmp.invoice_legal_number
+            WHERE RIGHT(LEFT(tmp.invoice_legal_number, 4), 3) = @areacode 
+            AND tmp.status = 'X'
+            AND SalesOrder.SalesOrderConfirmationNumber = '212'
+            AND SalesOrder.SalesOrderStatus = 'C'
+            AND SalesOrder.SalesOrderIsRequestForCancellation = 0;
+            PRINT 'UPDATE FLAGGING CANCEL DONE';
+        END
+    END TRY
+        
+    BEGIN CATCH
+        SET @err  = 'Error in update flagging cancel: ' + @areacode + ' ' + ERROR_MESSAGE();
+        THROW 50000, @so_err, 1;
+    END CATCH
+
+    COMMIT TRANSACTION;
+END TRY
+
+BEGIN CATCH
+	DECLARE @ErrorMessage NVARCHAR(4000);
+	DECLARE @ErrorSeverity INT;
+	DECLARE @ErrorState INT;
+	DECLARE @ErrorLine INT;
+
+	SET @ErrorMessage = ERROR_MESSAGE();
+	SET @ErrorSeverity = ERROR_SEVERITY();
+	SET @ErrorState = ERROR_STATE();
+	SET @ErrorLine = ERROR_LINE();
+
+	INSERT INTO @ErrorLog(area_code,[file_name],exec_start,exec_end,msg) values(@areacode,@filename,@start_job,GETDATE(),@ErrorMessage);
+
+	IF @@TRANCOUNT > 0
+	BEGIN
+		PRINT 'ROLLBACK TRANSACTION'
+		print @ErrorMessage
+		ROLLBACK TRANSACTION;
+	END;
+END CATCH;
+SELECT * FROM @ErrorLog
