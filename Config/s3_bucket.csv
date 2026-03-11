@@ -1,2 +1,2 @@
 ﻿job_name;bucket_name;prefix;update_only;job_type;
-overdue-inbound_invoice;dev-deep-ayo-hero-integration-data;outbound/hms/sales_order_status;1;inbound;
+overdue-inbound_invoice;qa-deep-ayo-hero-integration-data;outbound/hms/sales_order_status;1;inbound;

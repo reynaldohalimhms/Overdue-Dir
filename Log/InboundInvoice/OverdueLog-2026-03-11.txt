@@ -128,3 +128,644 @@
 2026-03-11 10:36:57.8305 Error Execute inbound_invoice failed for area SBW.
 2026-03-11 10:36:58.0243 Info Staging truncated.
 2026-03-11 10:36:58.0804 Info ------End Overdue Invoice Job------
+2026-03-11 11:21:42.3707 Info Preflight: paths & permissions OK. 
+2026-03-11 11:21:42.4314 Info Preflight OK. 
+2026-03-11 11:21:42.4314 Info ------Start Overdue Invoice Job------ 
+2026-03-11 11:21:42.4314 Info Download file from S3 started for bucket=dev-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 11:21:43.2921 Info ✅ files downloaded from s3: 0 
+2026-03-11 11:21:43.3018 Info ⛔ files failed from s3: 0 
+2026-03-11 11:21:43.3018 Info No CSV rows found; nothing to insert into staging. 
+2026-03-11 11:21:45.3313 Info Staging truncated. 
+2026-03-11 11:21:45.3357 Info ------End Overdue Invoice Job------ 
+2026-03-11 13:33:40.8050 Info Preflight: paths & permissions OK. 
+2026-03-11 13:33:40.8829 Info Preflight OK. 
+2026-03-11 13:33:40.8829 Info ------Start Overdue Invoice Job------ 
+2026-03-11 13:33:40.8829 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 13:33:42.0505 Info ✅ Download file from S3: sales_order_status_13_20260121100613.zip 
+2026-03-11 13:33:42.2407 Info ✅ Download file from S3: sales_order_status_12_20260310090038.zip 
+2026-03-11 13:33:42.2407 Info ✅ Download file from S3: sales_order_status_10_20260114163009.zip 
+2026-03-11 13:33:42.2567 Info ✅ Download file from S3: sales_order_status_11_20260115133435.zip 
+2026-03-11 13:33:42.2567 Info ✅ Download file from S3: sales_order_status_11_20260310000041.zip 
+2026-03-11 13:33:42.2567 Info ✅ Download file from S3: sales_order_status_12_20260115133957.zip 
+2026-03-11 13:33:42.2567 Info ✅ Download file from S3: sales_order_status_15_20260121120746.zip 
+2026-03-11 13:33:42.2567 Info ✅ Download file from S3: sales_order_status_10_20260309171253.zip 
+2026-03-11 13:33:42.2885 Info ✅ Download file from S3: sales_order_status_14_20260121103326.zip 
+2026-03-11 13:33:42.4160 Info ✅ Download file from S3: sales_order_status_17_20260121133010.zip 
+2026-03-11 13:33:42.4320 Info ✅ Download file from S3: sales_order_status_16_20260121131901.zip 
+2026-03-11 13:33:42.4478 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 13:33:42.4478 Info ✅ Download file from S3: sales_order_status_19_20260122210850.zip 
+2026-03-11 13:33:42.4478 Info ✅ Download file from S3: sales_order_status_20_20260122215400.zip 
+2026-03-11 13:33:42.4631 Info ✅ Download file from S3: sales_order_status_18_20260121134813.zip 
+2026-03-11 13:33:42.4631 Info ✅ Download file from S3: sales_order_status_1_20251208142952.zip 
+2026-03-11 13:33:42.4947 Info ✅ Download file from S3: sales_order_status_21_20260122230020.zip 
+2026-03-11 13:33:42.6057 Info ✅ Download file from S3: sales_order_status_23_20260129133508.zip 
+2026-03-11 13:33:42.6057 Info ✅ Download file from S3: sales_order_status_22_20260129113733.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_24_20260129161739.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_2_20260304220040.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_25_20260129163132.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_27_20260129163138.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_26_20260129163135.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_30_20260304160033.zip 
+2026-03-11 13:33:42.9226 Info ✅ Download file from S3: sales_order_status_28_20260130093512.zip 
+2026-03-11 13:33:42.9701 Info ✅ Download file from S3: sales_order_status_2_20251216212001.zip 
+2026-03-11 13:33:43.1125 Info ✅ Download file from S3: sales_order_status_3_20251217095021.zip 
+2026-03-11 13:33:43.1125 Info ✅ Download file from S3: sales_order_status_5_20251217100809.zip 
+2026-03-11 13:33:43.1125 Info ✅ Download file from S3: sales_order_status_6_20260107092724.zip 
+2026-03-11 13:33:43.1125 Info ✅ Download file from S3: sales_order_status_5_20260305160040.zip 
+2026-03-11 13:33:43.1157 Info ✅ Download file from S3: sales_order_status_4_20251217095715.zip 
+2026-03-11 13:33:43.1444 Info ✅ Download file from S3: sales_order_status_3_20260304222020.zip 
+2026-03-11 13:33:43.1605 Info ✅ Download file from S3: sales_order_status_6_20260306090040.zip 
+2026-03-11 13:33:43.2239 Info ✅ Download file from S3: sales_order_status_4_20260304230042.zip 
+2026-03-11 13:33:43.2866 Info ✅ Download file from S3: sales_order_status_7_20260306180040.zip 
+2026-03-11 13:33:43.3026 Info ✅ Download file from S3: sales_order_status_8_20260114105926.zip 
+2026-03-11 13:33:43.3026 Info ✅ Download file from S3: sales_order_status_7_20260113210518.zip 
+2026-03-11 13:33:43.3026 Info ✅ Download file from S3: sales_order_status_8_20260307090044.zip 
+2026-03-11 13:33:43.3340 Info ✅ Download file from S3: sales_order_status_9_20260309134629.zip 
+2026-03-11 13:33:43.3654 Info ✅ Download file from S3: sales_order_status_9_20260114111106.zip 
+2026-03-11 13:33:43.3654 Info ✅ files downloaded from s3: 41 
+2026-03-11 13:33:43.3654 Info ⛔ files failed from s3: 0 
+2026-03-11 13:33:43.4928 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260114163009.zip 
+2026-03-11 13:33:43.6858 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260309171253.zip 
+2026-03-11 13:33:43.8106 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260115133435.zip 
+2026-03-11 13:33:43.9877 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260310000041.zip 
+2026-03-11 13:33:44.1443 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260115133957.zip 
+2026-03-11 13:33:44.3518 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260310090038.zip 
+2026-03-11 13:33:44.4792 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_13_20260121100613.zip 
+2026-03-11 13:33:44.6591 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_14_20260121103326.zip 
+2026-03-11 13:33:44.7639 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_15_20260121120746.zip 
+2026-03-11 13:33:44.9383 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_16_20260121131901.zip 
+2026-03-11 13:33:45.0817 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_17_20260121133010.zip 
+2026-03-11 13:33:45.2405 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_18_20260121134813.zip 
+2026-03-11 13:33:45.3785 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_19_20260122210850.zip 
+2026-03-11 13:33:45.5131 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20251208142952.zip 
+2026-03-11 13:33:45.6449 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 13:33:45.8136 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_20_20260122215400.zip 
+2026-03-11 13:33:45.9243 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_21_20260122230020.zip 
+2026-03-11 13:33:46.0347 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_22_20260129113733.zip 
+2026-03-11 13:33:46.1942 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_23_20260129133508.zip 
+2026-03-11 13:33:46.3209 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_24_20260129161739.zip 
+2026-03-11 13:33:46.4309 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_25_20260129163132.zip 
+2026-03-11 13:33:46.5905 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_26_20260129163135.zip 
+2026-03-11 13:33:46.7690 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_27_20260129163138.zip 
+2026-03-11 13:33:46.9263 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_28_20260130093512.zip 
+2026-03-11 13:33:47.0419 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20251216212001.zip 
+2026-03-11 13:33:47.1758 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-11 13:33:47.2913 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_30_20260304160033.zip 
+2026-03-11 13:33:47.3837 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20251217095021.zip 
+2026-03-11 13:33:47.4981 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-11 13:33:47.6217 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20251217095715.zip 
+2026-03-11 13:33:47.8103 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-11 13:33:47.9748 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20251217100809.zip 
+2026-03-11 13:33:48.1255 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-11 13:33:48.2692 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260107092724.zip 
+2026-03-11 13:33:48.4666 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260306090040.zip 
+2026-03-11 13:33:48.6968 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260113210518.zip 
+2026-03-11 13:33:48.8396 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260306180040.zip 
+2026-03-11 13:33:49.0947 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260114105926.zip 
+2026-03-11 13:33:49.2571 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260307090044.zip 
+2026-03-11 13:33:49.3942 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260114111106.zip 
+2026-03-11 13:33:49.5200 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260309134629.zip 
+2026-03-11 13:33:49.9502 Info extract file: sales_order_status_10_20260114163009.zip 
+2026-03-11 13:33:49.9799 Info extract file: sales_order_status_10_20260309171253.zip 
+2026-03-11 13:33:49.9951 Info extract file: sales_order_status_11_20260115133435.zip 
+2026-03-11 13:33:50.0359 Info extract file: sales_order_status_11_20260310000041.zip 
+2026-03-11 13:33:50.0685 Info extract file: sales_order_status_12_20260115133957.zip 
+2026-03-11 13:33:50.0891 Info extract file: sales_order_status_12_20260310090038.zip 
+2026-03-11 13:33:50.1207 Info extract file: sales_order_status_13_20260121100613.zip 
+2026-03-11 13:33:50.1479 Info extract file: sales_order_status_14_20260121103326.zip 
+2026-03-11 13:33:50.1827 Info extract file: sales_order_status_15_20260121120746.zip 
+2026-03-11 13:33:50.2199 Info extract file: sales_order_status_16_20260121131901.zip 
+2026-03-11 13:33:50.2547 Info extract file: sales_order_status_17_20260121133010.zip 
+2026-03-11 13:33:50.2827 Info extract file: sales_order_status_18_20260121134813.zip 
+2026-03-11 13:33:50.3181 Info extract file: sales_order_status_19_20260122210850.zip 
+2026-03-11 13:33:50.3419 Info extract file: sales_order_status_1_20251208142952.zip 
+2026-03-11 13:33:50.3720 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 13:33:50.4056 Info extract file: sales_order_status_20_20260122215400.zip 
+2026-03-11 13:33:50.4249 Info extract file: sales_order_status_21_20260122230020.zip 
+2026-03-11 13:33:50.4661 Info extract file: sales_order_status_22_20260129113733.zip 
+2026-03-11 13:33:50.5292 Info extract file: sales_order_status_23_20260129133508.zip 
+2026-03-11 13:33:50.5874 Info extract file: sales_order_status_24_20260129161739.zip 
+2026-03-11 13:33:50.6333 Info extract file: sales_order_status_25_20260129163132.zip 
+2026-03-11 13:33:50.6726 Info extract file: sales_order_status_26_20260129163135.zip 
+2026-03-11 13:33:50.7064 Info extract file: sales_order_status_27_20260129163138.zip 
+2026-03-11 13:33:50.7485 Info extract file: sales_order_status_28_20260130093512.zip 
+2026-03-11 13:33:50.7832 Info extract file: sales_order_status_2_20251216212001.zip 
+2026-03-11 13:33:50.8167 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-11 13:33:50.8492 Info extract file: sales_order_status_30_20260304160033.zip 
+2026-03-11 13:33:50.8827 Info extract file: sales_order_status_3_20251217095021.zip 
+2026-03-11 13:33:50.9087 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-11 13:33:50.9319 Info extract file: sales_order_status_4_20251217095715.zip 
+2026-03-11 13:33:50.9619 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-11 13:33:50.9952 Info extract file: sales_order_status_5_20251217100809.zip 
+2026-03-11 13:33:51.0247 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-11 13:33:51.0525 Info extract file: sales_order_status_6_20260107092724.zip 
+2026-03-11 13:33:51.0979 Info extract file: sales_order_status_6_20260306090040.zip 
+2026-03-11 13:33:51.1559 Info extract file: sales_order_status_7_20260113210518.zip 
+2026-03-11 13:33:51.1941 Info extract file: sales_order_status_7_20260306180040.zip 
+2026-03-11 13:33:51.2266 Info extract file: sales_order_status_8_20260114105926.zip 
+2026-03-11 13:33:51.2594 Info extract file: sales_order_status_8_20260307090044.zip 
+2026-03-11 13:33:51.2941 Info extract file: sales_order_status_9_20260114111106.zip 
+2026-03-11 13:33:51.3222 Info extract file: sales_order_status_9_20260309134629.zip 
+2026-03-11 13:33:54.5786 Info Staging insert done. Rows: 99 
+2026-03-11 13:33:54.9552 Info Counter executed for area JKB. 
+2026-03-11 13:33:55.1684 Error Execute inbound_invoice failed for area JKB. Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<Execute>d__2.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 200
+2026-03-11 13:33:55.3944 Info Counter executed for area SUB. 
+2026-03-11 13:33:55.6598 Error Execute inbound_invoice failed for area SUB. Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<Execute>d__2.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 200
+2026-03-11 13:33:56.9376 Info Counter executed for area JOW. 
+2026-03-11 13:33:57.5522 Error Execute inbound_invoice failed for area JOW. Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<Execute>d__2.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 200
+2026-03-11 13:33:57.7904 Info Counter executed for area SBW. 
+2026-03-11 13:33:58.0137 Error Execute inbound_invoice failed for area SBW. Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".
+Must declare the scalar variable "@err".    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at iSMSOverdue.InboundInvoice.Helper.DBHelper.<Execute>d__2.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Helper\DBHelper.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at iSMSOverdue.InboundInvoice.Service.Inbound.ServiceInboundJob.<ExecJob>d__1.MoveNext() in C:\Users\rhalim\OneDrive - Philip Morris International\Documents\Projects\iSMSOverdue.InboundInvoice\Service\Inbound\ServiceInboundJob.cs:line 200
+2026-03-11 13:33:58.2048 Info Staging truncated. 
+2026-03-11 13:33:58.3152 Info ------End Overdue Invoice Job------ 
+2026-03-11 13:53:49.8344 Info Preflight: paths & permissions OK. 
+2026-03-11 13:53:49.9566 Info Preflight OK. 
+2026-03-11 13:53:49.9596 Info ------Start Overdue Invoice Job------ 
+2026-03-11 13:53:49.9596 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 13:53:51.0383 Info ✅ Download file from S3: sales_order_status_11_20260115133435.zip 
+2026-03-11 13:53:51.1021 Info ✅ Download file from S3: sales_order_status_13_20260121100613.zip 
+2026-03-11 13:53:51.1021 Info ✅ Download file from S3: sales_order_status_10_20260309171253.zip 
+2026-03-11 13:53:51.1021 Info ✅ Download file from S3: sales_order_status_12_20260310090038.zip 
+2026-03-11 13:53:51.1021 Info ✅ Download file from S3: sales_order_status_11_20260310000041.zip 
+2026-03-11 13:53:51.1179 Info ✅ Download file from S3: sales_order_status_12_20260115133957.zip 
+2026-03-11 13:53:51.1179 Info ✅ Download file from S3: sales_order_status_10_20260114163009.zip 
+2026-03-11 13:53:51.1499 Info ✅ Download file from S3: sales_order_status_14_20260121103326.zip 
+2026-03-11 13:53:51.2455 Info ✅ Download file from S3: sales_order_status_15_20260121120746.zip 
+2026-03-11 13:53:51.2772 Info ✅ Download file from S3: sales_order_status_16_20260121131901.zip 
+2026-03-11 13:53:51.2931 Info ✅ Download file from S3: sales_order_status_18_20260121134813.zip 
+2026-03-11 13:53:51.2931 Info ✅ Download file from S3: sales_order_status_17_20260121133010.zip 
+2026-03-11 13:53:51.3088 Info ✅ Download file from S3: sales_order_status_19_20260122210850.zip 
+2026-03-11 13:53:51.3088 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 13:53:51.3249 Info ✅ Download file from S3: sales_order_status_1_20251208142952.zip 
+2026-03-11 13:53:51.3410 Info ✅ Download file from S3: sales_order_status_20_20260122215400.zip 
+2026-03-11 13:53:51.4204 Info ✅ Download file from S3: sales_order_status_21_20260122230020.zip 
+2026-03-11 13:53:51.4685 Info ✅ Download file from S3: sales_order_status_24_20260129161739.zip 
+2026-03-11 13:53:51.4843 Info ✅ Download file from S3: sales_order_status_22_20260129113733.zip 
+2026-03-11 13:53:51.4843 Info ✅ Download file from S3: sales_order_status_26_20260129163135.zip 
+2026-03-11 13:53:51.5001 Info ✅ Download file from S3: sales_order_status_23_20260129133508.zip 
+2026-03-11 13:53:51.5001 Info ✅ Download file from S3: sales_order_status_25_20260129163132.zip 
+2026-03-11 13:53:51.5001 Info ✅ Download file from S3: sales_order_status_27_20260129163138.zip 
+2026-03-11 13:53:51.5160 Info ✅ Download file from S3: sales_order_status_28_20260130093512.zip 
+2026-03-11 13:53:51.6273 Info ✅ Download file from S3: sales_order_status_2_20260304220040.zip 
+2026-03-11 13:53:51.6273 Info ✅ Download file from S3: sales_order_status_2_20251216212001.zip 
+2026-03-11 13:53:51.6584 Info ✅ Download file from S3: sales_order_status_30_20260304160033.zip 
+2026-03-11 13:53:51.6902 Info ✅ Download file from S3: sales_order_status_4_20260304230042.zip 
+2026-03-11 13:53:51.6902 Info ✅ Download file from S3: sales_order_status_3_20260304222020.zip 
+2026-03-11 13:53:51.6933 Info ✅ Download file from S3: sales_order_status_4_20251217095715.zip 
+2026-03-11 13:53:51.6933 Info ✅ Download file from S3: sales_order_status_3_20251217095021.zip 
+2026-03-11 13:53:51.6933 Info ✅ Download file from S3: sales_order_status_5_20251217100809.zip 
+2026-03-11 13:53:51.8010 Info ✅ Download file from S3: sales_order_status_5_20260305160040.zip 
+2026-03-11 13:53:51.8171 Info ✅ Download file from S3: sales_order_status_6_20260306090040.zip 
+2026-03-11 13:53:51.8183 Info ✅ Download file from S3: sales_order_status_6_20260107092724.zip 
+2026-03-11 13:53:51.8647 Info ✅ Download file from S3: sales_order_status_7_20260113210518.zip 
+2026-03-11 13:53:51.8804 Info ✅ Download file from S3: sales_order_status_7_20260306180040.zip 
+2026-03-11 13:53:51.8804 Info ✅ Download file from S3: sales_order_status_8_20260307090044.zip 
+2026-03-11 13:53:51.8804 Info ✅ Download file from S3: sales_order_status_8_20260114105926.zip 
+2026-03-11 13:53:51.8964 Info ✅ Download file from S3: sales_order_status_9_20260114111106.zip 
+2026-03-11 13:53:51.9910 Info ✅ Download file from S3: sales_order_status_9_20260309134629.zip 
+2026-03-11 13:53:51.9910 Info ✅ files downloaded from s3: 41 
+2026-03-11 13:53:51.9910 Info ⛔ files failed from s3: 0 
+2026-03-11 13:53:52.1531 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260114163009.zip 
+2026-03-11 13:53:52.2787 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260309171253.zip 
+2026-03-11 13:53:52.3749 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260115133435.zip 
+2026-03-11 13:53:52.4705 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260310000041.zip 
+2026-03-11 13:53:52.5827 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260115133957.zip 
+2026-03-11 13:53:52.6941 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260310090038.zip 
+2026-03-11 13:53:52.8058 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_13_20260121100613.zip 
+2026-03-11 13:53:52.9177 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_14_20260121103326.zip 
+2026-03-11 13:53:53.0141 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_15_20260121120746.zip 
+2026-03-11 13:53:53.1093 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_16_20260121131901.zip 
+2026-03-11 13:53:53.2367 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_17_20260121133010.zip 
+2026-03-11 13:53:53.3652 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_18_20260121134813.zip 
+2026-03-11 13:53:53.4614 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_19_20260122210850.zip 
+2026-03-11 13:53:53.5621 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20251208142952.zip 
+2026-03-11 13:53:53.6997 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 13:53:53.7959 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_20_20260122215400.zip 
+2026-03-11 13:53:53.9077 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_21_20260122230020.zip 
+2026-03-11 13:53:54.0033 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_22_20260129113733.zip 
+2026-03-11 13:53:54.1610 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_23_20260129133508.zip 
+2026-03-11 13:53:54.2599 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_24_20260129161739.zip 
+2026-03-11 13:53:54.3680 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_25_20260129163132.zip 
+2026-03-11 13:53:54.5046 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_26_20260129163135.zip 
+2026-03-11 13:53:54.6071 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_27_20260129163138.zip 
+2026-03-11 13:53:54.7358 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_28_20260130093512.zip 
+2026-03-11 13:53:54.8401 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20251216212001.zip 
+2026-03-11 13:53:54.9424 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-11 13:53:55.0541 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_30_20260304160033.zip 
+2026-03-11 13:53:55.1725 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20251217095021.zip 
+2026-03-11 13:53:55.2706 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-11 13:53:55.3887 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20251217095715.zip 
+2026-03-11 13:53:55.4855 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-11 13:53:55.5973 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20251217100809.zip 
+2026-03-11 13:53:55.7109 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-11 13:53:55.8383 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260107092724.zip 
+2026-03-11 13:53:55.9392 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260306090040.zip 
+2026-03-11 13:53:56.0378 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260113210518.zip 
+2026-03-11 13:53:56.1428 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260306180040.zip 
+2026-03-11 13:53:56.2654 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260114105926.zip 
+2026-03-11 13:53:56.3934 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260307090044.zip 
+2026-03-11 13:53:56.5060 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260114111106.zip 
+2026-03-11 13:53:56.6186 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260309134629.zip 
+2026-03-11 13:53:57.0020 Info extract file: sales_order_status_10_20260114163009.zip 
+2026-03-11 13:53:57.0313 Info extract file: sales_order_status_10_20260309171253.zip 
+2026-03-11 13:53:57.0694 Info extract file: sales_order_status_11_20260115133435.zip 
+2026-03-11 13:53:57.1097 Info extract file: sales_order_status_11_20260310000041.zip 
+2026-03-11 13:53:57.1429 Info extract file: sales_order_status_12_20260115133957.zip 
+2026-03-11 13:53:57.1740 Info extract file: sales_order_status_12_20260310090038.zip 
+2026-03-11 13:53:57.2011 Info extract file: sales_order_status_13_20260121100613.zip 
+2026-03-11 13:53:57.2349 Info extract file: sales_order_status_14_20260121103326.zip 
+2026-03-11 13:53:57.2639 Info extract file: sales_order_status_15_20260121120746.zip 
+2026-03-11 13:53:57.2905 Info extract file: sales_order_status_16_20260121131901.zip 
+2026-03-11 13:53:57.3120 Info extract file: sales_order_status_17_20260121133010.zip 
+2026-03-11 13:53:57.3547 Info extract file: sales_order_status_18_20260121134813.zip 
+2026-03-11 13:53:57.3818 Info extract file: sales_order_status_19_20260122210850.zip 
+2026-03-11 13:53:57.4125 Info extract file: sales_order_status_1_20251208142952.zip 
+2026-03-11 13:53:57.4406 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 13:53:57.4707 Info extract file: sales_order_status_20_20260122215400.zip 
+2026-03-11 13:53:57.5050 Info extract file: sales_order_status_21_20260122230020.zip 
+2026-03-11 13:53:57.5341 Info extract file: sales_order_status_22_20260129113733.zip 
+2026-03-11 13:53:57.5538 Info extract file: sales_order_status_23_20260129133508.zip 
+2026-03-11 13:53:57.5828 Info extract file: sales_order_status_24_20260129161739.zip 
+2026-03-11 13:53:57.6237 Info extract file: sales_order_status_25_20260129163132.zip 
+2026-03-11 13:53:57.6578 Info extract file: sales_order_status_26_20260129163135.zip 
+2026-03-11 13:53:57.6866 Info extract file: sales_order_status_27_20260129163138.zip 
+2026-03-11 13:53:57.7171 Info extract file: sales_order_status_28_20260130093512.zip 
+2026-03-11 13:53:57.7531 Info extract file: sales_order_status_2_20251216212001.zip 
+2026-03-11 13:53:57.7766 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-11 13:53:57.8025 Info extract file: sales_order_status_30_20260304160033.zip 
+2026-03-11 13:53:57.8342 Info extract file: sales_order_status_3_20251217095021.zip 
+2026-03-11 13:53:57.8500 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-11 13:53:57.8844 Info extract file: sales_order_status_4_20251217095715.zip 
+2026-03-11 13:53:57.9132 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-11 13:53:57.9487 Info extract file: sales_order_status_5_20251217100809.zip 
+2026-03-11 13:53:57.9866 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-11 13:53:58.0114 Info extract file: sales_order_status_6_20260107092724.zip 
+2026-03-11 13:53:58.0415 Info extract file: sales_order_status_6_20260306090040.zip 
+2026-03-11 13:53:58.0691 Info extract file: sales_order_status_7_20260113210518.zip 
+2026-03-11 13:53:58.0977 Info extract file: sales_order_status_7_20260306180040.zip 
+2026-03-11 13:53:58.1209 Info extract file: sales_order_status_8_20260114105926.zip 
+2026-03-11 13:53:58.1518 Info extract file: sales_order_status_8_20260307090044.zip 
+2026-03-11 13:53:58.1782 Info extract file: sales_order_status_9_20260114111106.zip 
+2026-03-11 13:53:58.2118 Info extract file: sales_order_status_9_20260309134629.zip 
+2026-03-11 13:54:00.5568 Info Staging insert done. Rows: 99 
+2026-03-11 13:54:00.7520 Info Counter executed for area JKB. 
+2026-03-11 13:54:02.3571 Info ✅ JKB: Execute inbound_invoice success. 
+2026-03-11 13:54:02.5299 Info Counter executed for area SUB. 
+2026-03-11 13:54:04.0765 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 13:54:04.2498 Info Counter executed for area JOW. 
+2026-03-11 13:54:05.8289 Info ✅ JOW: Execute inbound_invoice success. 
+2026-03-11 13:54:06.0035 Info Counter executed for area SBW. 
+2026-03-11 13:54:07.6369 Info ✅ SBW: Execute inbound_invoice success. 
+2026-03-11 13:54:07.8144 Info Staging truncated. 
+2026-03-11 13:54:07.8780 Info ------End Overdue Invoice Job------ 
+2026-03-11 14:01:53.2535 Info Preflight: paths & permissions OK. 
+2026-03-11 14:01:53.3085 Info Preflight OK. 
+2026-03-11 14:01:53.3085 Info ------Start Overdue Invoice Job------ 
+2026-03-11 14:01:53.3085 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 14:01:54.3562 Info ✅ Download file from S3: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:01:54.4032 Info ✅ Download file from S3: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:01:54.4190 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:01:54.4190 Info ✅ Download file from S3: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:01:54.4190 Info ✅ Download file from S3: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:01:54.4190 Info ✅ Download file from S3: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:01:54.4348 Info ✅ Download file from S3: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:01:54.4507 Info ✅ Download file from S3: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:01:54.5299 Info ✅ Download file from S3: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:01:54.5771 Info ✅ Download file from S3: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:01:54.5771 Info ✅ files downloaded from s3: 10 
+2026-03-11 14:01:54.5771 Info ⛔ files failed from s3: 0 
+2026-03-11 14:01:54.6978 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20251208142952.zip 
+2026-03-11 14:01:54.7856 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 14:01:54.8826 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20251216212001.zip 
+2026-03-11 14:01:54.9759 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-11 14:01:55.0697 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20251217095021.zip 
+2026-03-11 14:01:55.1797 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-11 14:01:55.2802 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20251217095715.zip 
+2026-03-11 14:01:55.3726 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-11 14:01:55.4842 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20251217100809.zip 
+2026-03-11 14:01:55.5833 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-11 14:01:55.6914 Info extract file: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:01:55.7408 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:01:55.7727 Info extract file: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:01:55.8012 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:01:55.8282 Info extract file: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:01:55.8554 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:01:55.8816 Info extract file: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:01:55.8976 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:01:55.9294 Info extract file: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:01:55.9687 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:01:58.0231 Info Staging insert done. Rows: 18 
+2026-03-11 14:01:58.2171 Info Counter executed for area JKB. 
+2026-03-11 14:01:59.1315 Info ✅ JKB: Execute inbound_invoice success. 
+2026-03-11 14:01:59.3019 Info Counter executed for area SBW. 
+2026-03-11 14:02:00.8733 Info ✅ SBW: Execute inbound_invoice success. 
+2026-03-11 14:02:01.0428 Info Counter executed for area SUB. 
+2026-03-11 14:02:01.9270 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 14:02:02.1161 Info Staging truncated. 
+2026-03-11 14:02:02.1359 Info ------End Overdue Invoice Job------ 
+2026-03-11 14:03:20.8783 Info Preflight: paths & permissions OK. 
+2026-03-11 14:03:20.9284 Info Preflight OK. 
+2026-03-11 14:03:20.9284 Info ------Start Overdue Invoice Job------ 
+2026-03-11 14:03:20.9284 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 14:03:22.1984 Info ✅ Download file from S3: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:03:22.2813 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:03:22.2813 Info ✅ Download file from S3: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:03:22.2941 Info ✅ Download file from S3: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:03:22.2813 Info ✅ Download file from S3: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:03:22.2813 Info ✅ Download file from S3: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:03:22.2813 Info ✅ Download file from S3: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:03:22.3188 Info ✅ Download file from S3: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:03:22.3805 Info ✅ Download file from S3: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:03:22.4977 Info ✅ Download file from S3: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:03:22.5055 Info ✅ files downloaded from s3: 10 
+2026-03-11 14:03:22.5055 Info ⛔ files failed from s3: 0 
+2026-03-11 14:03:22.6270 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20251208142952.zip 
+2026-03-11 14:03:22.7397 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 14:03:22.8332 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20251216212001.zip 
+2026-03-11 14:03:22.9574 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-11 14:03:23.0846 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20251217095021.zip 
+2026-03-11 14:03:23.1841 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-11 14:03:23.2786 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20251217095715.zip 
+2026-03-11 14:03:23.3740 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-11 14:03:23.4634 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20251217100809.zip 
+2026-03-11 14:03:23.5829 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-11 14:03:23.6829 Info extract file: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:03:23.7350 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:03:23.7537 Info extract file: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:03:23.7832 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:03:23.8080 Info extract file: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:03:23.8374 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:03:23.8593 Info extract file: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:03:23.8842 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:03:23.9126 Info extract file: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:03:23.9365 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:03:25.9756 Info Staging insert done. Rows: 18 
+2026-03-11 14:03:26.1733 Info Counter executed for area JKB. 
+2026-03-11 14:03:27.0379 Info ✅ JKB: Execute inbound_invoice success. 
+2026-03-11 14:03:27.2093 Info Counter executed for area SBW. 
+2026-03-11 14:03:28.7114 Info ✅ SBW: Execute inbound_invoice success. 
+2026-03-11 14:03:28.8849 Info Counter executed for area SUB. 
+2026-03-11 14:03:29.7473 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 14:03:29.9230 Info Staging truncated. 
+2026-03-11 14:03:29.9373 Info ------End Overdue Invoice Job------ 
+2026-03-11 14:11:59.8201 Info Preflight: paths & permissions OK. 
+2026-03-11 14:11:59.8670 Info Preflight OK. 
+2026-03-11 14:11:59.8670 Info ------Start Overdue Invoice Job------ 
+2026-03-11 14:11:59.8670 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 14:12:00.9643 Info ✅ Download file from S3: sales_order_status_10_20260114163009.zip 
+2026-03-11 14:12:01.0281 Info ✅ Download file from S3: sales_order_status_11_20260115133435.zip 
+2026-03-11 14:12:01.0281 Info ✅ Download file from S3: sales_order_status_12_20260310090038.zip 
+2026-03-11 14:12:01.0281 Info ✅ Download file from S3: sales_order_status_14_20260121103326.zip 
+2026-03-11 14:12:01.0281 Info ✅ Download file from S3: sales_order_status_12_20260115133957.zip 
+2026-03-11 14:12:01.0441 Info ✅ Download file from S3: sales_order_status_10_20260309171253.zip 
+2026-03-11 14:12:01.0600 Info ✅ Download file from S3: sales_order_status_11_20260310000041.zip 
+2026-03-11 14:12:01.0600 Info ✅ Download file from S3: sales_order_status_13_20260121100613.zip 
+2026-03-11 14:12:01.1544 Info ✅ Download file from S3: sales_order_status_15_20260121120746.zip 
+2026-03-11 14:12:01.2014 Info ✅ Download file from S3: sales_order_status_18_20260121134813.zip 
+2026-03-11 14:12:01.2172 Info ✅ Download file from S3: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:12:01.2172 Info ✅ Download file from S3: sales_order_status_17_20260121133010.zip 
+2026-03-11 14:12:01.2172 Info ✅ Download file from S3: sales_order_status_16_20260121131901.zip 
+2026-03-11 14:12:01.2172 Info ✅ Download file from S3: sales_order_status_19_20260122210850.zip 
+2026-03-11 14:12:01.2331 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:12:01.2646 Info ✅ Download file from S3: sales_order_status_20_20260122215400.zip 
+2026-03-11 14:12:01.3434 Info ✅ Download file from S3: sales_order_status_21_20260122230020.zip 
+2026-03-11 14:12:01.3756 Info ✅ Download file from S3: sales_order_status_22_20260129113733.zip 
+2026-03-11 14:12:01.3915 Info ✅ Download file from S3: sales_order_status_27_20260129163138.zip 
+2026-03-11 14:12:01.3915 Info ✅ Download file from S3: sales_order_status_25_20260129163132.zip 
+2026-03-11 14:12:01.4076 Info ✅ Download file from S3: sales_order_status_26_20260129163135.zip 
+2026-03-11 14:12:01.4130 Info ✅ Download file from S3: sales_order_status_24_20260129161739.zip 
+2026-03-11 14:12:01.4130 Info ✅ Download file from S3: sales_order_status_28_20260130093512.zip 
+2026-03-11 14:12:01.4130 Info ✅ Download file from S3: sales_order_status_23_20260129133508.zip 
+2026-03-11 14:12:01.5351 Info ✅ Download file from S3: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:12:01.5644 Info ✅ Download file from S3: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:12:01.5644 Info ✅ Download file from S3: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:12:01.5803 Info ✅ Download file from S3: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:12:01.5803 Info ✅ Download file from S3: sales_order_status_30_20260304160033.zip 
+2026-03-11 14:12:01.5923 Info ✅ Download file from S3: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:12:01.5803 Info ✅ Download file from S3: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:12:01.6001 Info ✅ Download file from S3: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:12:01.7378 Info ✅ Download file from S3: sales_order_status_6_20260306090040.zip 
+2026-03-11 14:12:01.7378 Info ✅ Download file from S3: sales_order_status_6_20260107092724.zip 
+2026-03-11 14:12:01.7530 Info ✅ Download file from S3: sales_order_status_7_20260113210518.zip 
+2026-03-11 14:12:01.7682 Info ✅ Download file from S3: sales_order_status_8_20260114105926.zip 
+2026-03-11 14:12:01.7997 Info ✅ Download file from S3: sales_order_status_7_20260306180040.zip 
+2026-03-11 14:12:01.7997 Info ✅ Download file from S3: sales_order_status_9_20260114111106.zip 
+2026-03-11 14:12:01.7997 Info ✅ Download file from S3: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:12:01.7997 Info ✅ Download file from S3: sales_order_status_8_20260307090044.zip 
+2026-03-11 14:12:01.9269 Info ✅ Download file from S3: sales_order_status_9_20260309134629.zip 
+2026-03-11 14:12:01.9309 Info ✅ files downloaded from s3: 41 
+2026-03-11 14:12:01.9309 Info ⛔ files failed from s3: 0 
+2026-03-11 14:12:02.0526 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260114163009.zip 
+2026-03-11 14:12:02.1527 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_10_20260309171253.zip 
+2026-03-11 14:12:02.2429 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260115133435.zip 
+2026-03-11 14:12:02.3388 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_11_20260310000041.zip 
+2026-03-11 14:12:02.4385 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260115133957.zip 
+2026-03-11 14:12:02.5283 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_12_20260310090038.zip 
+2026-03-11 14:12:02.6119 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_13_20260121100613.zip 
+2026-03-11 14:12:02.7211 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_14_20260121103326.zip 
+2026-03-11 14:12:02.8162 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_15_20260121120746.zip 
+2026-03-11 14:12:02.9129 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_16_20260121131901.zip 
+2026-03-11 14:12:03.0241 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_17_20260121133010.zip 
+2026-03-11 14:12:03.1247 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_18_20260121134813.zip 
+2026-03-11 14:12:03.2478 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_19_20260122210850.zip 
+2026-03-11 14:12:03.3513 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20251208142952.zip 
+2026-03-11 14:12:03.4388 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 14:12:03.5463 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_20_20260122215400.zip 
+2026-03-11 14:12:03.6317 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_21_20260122230020.zip 
+2026-03-11 14:12:03.7579 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_22_20260129113733.zip 
+2026-03-11 14:12:03.8503 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_23_20260129133508.zip 
+2026-03-11 14:12:03.9653 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_24_20260129161739.zip 
+2026-03-11 14:12:04.0615 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_25_20260129163132.zip 
+2026-03-11 14:12:04.1610 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_26_20260129163135.zip 
+2026-03-11 14:12:04.2803 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_27_20260129163138.zip 
+2026-03-11 14:12:04.3773 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_28_20260130093512.zip 
+2026-03-11 14:12:04.4851 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20251216212001.zip 
+2026-03-11 14:12:04.5746 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_2_20260304220040.zip 
+2026-03-11 14:12:04.6716 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_30_20260304160033.zip 
+2026-03-11 14:12:04.7791 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20251217095021.zip 
+2026-03-11 14:12:04.8751 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_3_20260304222020.zip 
+2026-03-11 14:12:04.9994 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20251217095715.zip 
+2026-03-11 14:12:05.1131 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_4_20260304230042.zip 
+2026-03-11 14:12:05.2105 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20251217100809.zip 
+2026-03-11 14:12:05.3116 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_5_20260305160040.zip 
+2026-03-11 14:12:05.4077 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260107092724.zip 
+2026-03-11 14:12:05.4991 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_6_20260306090040.zip 
+2026-03-11 14:12:05.6024 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260113210518.zip 
+2026-03-11 14:12:05.7133 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_7_20260306180040.zip 
+2026-03-11 14:12:05.8303 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260114105926.zip 
+2026-03-11 14:12:05.9236 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_8_20260307090044.zip 
+2026-03-11 14:12:06.0157 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260114111106.zip 
+2026-03-11 14:12:06.1433 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_9_20260309134629.zip 
+2026-03-11 14:12:06.2584 Info extract file: sales_order_status_10_20260114163009.zip 
+2026-03-11 14:12:06.2849 Info extract file: sales_order_status_10_20260309171253.zip 
+2026-03-11 14:12:06.3173 Info extract file: sales_order_status_11_20260115133435.zip 
+2026-03-11 14:12:06.3468 Info extract file: sales_order_status_11_20260310000041.zip 
+2026-03-11 14:12:06.3780 Info extract file: sales_order_status_12_20260115133957.zip 
+2026-03-11 14:12:06.4023 Info extract file: sales_order_status_12_20260310090038.zip 
+2026-03-11 14:12:06.4320 Info extract file: sales_order_status_13_20260121100613.zip 
+2026-03-11 14:12:06.4588 Info extract file: sales_order_status_14_20260121103326.zip 
+2026-03-11 14:12:06.4815 Info extract file: sales_order_status_15_20260121120746.zip 
+2026-03-11 14:12:06.5095 Info extract file: sales_order_status_16_20260121131901.zip 
+2026-03-11 14:12:06.5381 Info extract file: sales_order_status_17_20260121133010.zip 
+2026-03-11 14:12:06.5698 Info extract file: sales_order_status_18_20260121134813.zip 
+2026-03-11 14:12:06.5875 Info extract file: sales_order_status_19_20260122210850.zip 
+2026-03-11 14:12:06.6349 Info extract file: sales_order_status_1_20251208142952.zip 
+2026-03-11 14:12:06.6967 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 14:12:06.7812 Info extract file: sales_order_status_20_20260122215400.zip 
+2026-03-11 14:12:06.8475 Info extract file: sales_order_status_21_20260122230020.zip 
+2026-03-11 14:12:06.8768 Info extract file: sales_order_status_22_20260129113733.zip 
+2026-03-11 14:12:06.9039 Info extract file: sales_order_status_23_20260129133508.zip 
+2026-03-11 14:12:06.9247 Info extract file: sales_order_status_24_20260129161739.zip 
+2026-03-11 14:12:06.9518 Info extract file: sales_order_status_25_20260129163132.zip 
+2026-03-11 14:12:06.9691 Info extract file: sales_order_status_26_20260129163135.zip 
+2026-03-11 14:12:06.9989 Info extract file: sales_order_status_27_20260129163138.zip 
+2026-03-11 14:12:07.0263 Info extract file: sales_order_status_28_20260130093512.zip 
+2026-03-11 14:12:07.0474 Info extract file: sales_order_status_2_20251216212001.zip 
+2026-03-11 14:12:07.0768 Info extract file: sales_order_status_2_20260304220040.zip 
+2026-03-11 14:12:07.1052 Info extract file: sales_order_status_30_20260304160033.zip 
+2026-03-11 14:12:07.1463 Info extract file: sales_order_status_3_20251217095021.zip 
+2026-03-11 14:12:07.1790 Info extract file: sales_order_status_3_20260304222020.zip 
+2026-03-11 14:12:07.2055 Info extract file: sales_order_status_4_20251217095715.zip 
+2026-03-11 14:12:07.2297 Info extract file: sales_order_status_4_20260304230042.zip 
+2026-03-11 14:12:07.2587 Info extract file: sales_order_status_5_20251217100809.zip 
+2026-03-11 14:12:07.2844 Info extract file: sales_order_status_5_20260305160040.zip 
+2026-03-11 14:12:07.3085 Info extract file: sales_order_status_6_20260107092724.zip 
+2026-03-11 14:12:07.3415 Info extract file: sales_order_status_6_20260306090040.zip 
+2026-03-11 14:12:07.3721 Info extract file: sales_order_status_7_20260113210518.zip 
+2026-03-11 14:12:07.4061 Info extract file: sales_order_status_7_20260306180040.zip 
+2026-03-11 14:12:07.4401 Info extract file: sales_order_status_8_20260114105926.zip 
+2026-03-11 14:12:07.4684 Info extract file: sales_order_status_8_20260307090044.zip 
+2026-03-11 14:12:07.4985 Info extract file: sales_order_status_9_20260114111106.zip 
+2026-03-11 14:12:07.5318 Info extract file: sales_order_status_9_20260309134629.zip 
+2026-03-11 14:12:09.6362 Info Staging insert done. Rows: 99 
+2026-03-11 14:12:09.8300 Info Counter executed for area JKB. 
+2026-03-11 14:12:11.4267 Info ✅ JKB: Execute inbound_invoice success. 
+2026-03-11 14:12:11.5995 Info Counter executed for area SUB. 
+2026-03-11 14:12:13.2093 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 14:12:13.3849 Info Counter executed for area JOW. 
+2026-03-11 14:12:14.9091 Info ✅ JOW: Execute inbound_invoice success. 
+2026-03-11 14:12:15.0807 Info Counter executed for area SBW. 
+2026-03-11 14:12:16.5987 Info ✅ SBW: Execute inbound_invoice success. 
+2026-03-11 14:12:16.7821 Info Staging truncated. 
+2026-03-11 14:12:16.8633 Info ------End Overdue Invoice Job------ 
+2026-03-11 15:51:43.3739 Info Preflight: paths & permissions OK. 
+2026-03-11 15:51:43.5067 Info Preflight OK. 
+2026-03-11 15:51:43.5067 Info ------Start Overdue Invoice Job------ 
+2026-03-11 15:51:43.5067 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 15:51:44.7000 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 15:51:44.7000 Info ✅ files downloaded from s3: 1 
+2026-03-11 15:51:44.7000 Info ⛔ files failed from s3: 0 
+2026-03-11 15:51:44.8238 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 15:51:45.2286 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 15:51:47.4374 Info Staging insert done. Rows: 10 
+2026-03-11 15:51:47.6271 Info Counter executed for area UB5. 
+2026-03-11 15:51:48.5496 Info ✅ UB5: Execute inbound_invoice success. 
+2026-03-11 15:51:48.7254 Info Staging truncated. 
+2026-03-11 15:51:48.7254 Info ------End Overdue Invoice Job------ 
+2026-03-11 15:57:44.3660 Info Preflight: paths & permissions OK. 
+2026-03-11 15:57:44.4278 Info Preflight OK. 
+2026-03-11 15:57:44.4278 Info ------Start Overdue Invoice Job------ 
+2026-03-11 15:57:44.4278 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 15:57:45.6068 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 15:57:45.6158 Info ✅ files downloaded from s3: 1 
+2026-03-11 15:57:45.6158 Info ⛔ files failed from s3: 0 
+2026-03-11 15:57:45.8602 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 15:57:45.9438 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 15:57:48.0602 Info Staging insert done. Rows: 10 
+2026-03-11 15:57:48.2619 Info Counter executed for area SUB. 
+2026-03-11 15:57:49.5075 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 15:57:49.7057 Info Staging truncated. 
+2026-03-11 15:57:49.7107 Info ------End Overdue Invoice Job------ 
+2026-03-11 16:25:08.4820 Info Preflight: paths & permissions OK. 
+2026-03-11 16:25:08.6074 Info Preflight OK. 
+2026-03-11 16:25:08.6074 Info ------Start Overdue Invoice Job------ 
+2026-03-11 16:25:08.6074 Info Download file from S3 started for bucket=qa-deep-ayo-hero-integration-data, prefix=outbound/hms/sales_order_status 
+2026-03-11 16:25:09.6836 Info ✅ Download file from S3: sales_order_status_1_20260303180037.zip 
+2026-03-11 16:25:09.6836 Info ✅ files downloaded from s3: 1 
+2026-03-11 16:25:09.6836 Info ⛔ files failed from s3: 0 
+2026-03-11 16:25:09.8197 Info Delete file S3 outbound/hms/sales_order_status/sales_order_status_1_20260303180037.zip 
+2026-03-11 16:25:10.2286 Info extract file: sales_order_status_1_20260303180037.zip 
+2026-03-11 16:25:12.3924 Info Staging insert done. Rows: 10 
+2026-03-11 16:25:12.5971 Info Counter executed for area SUB. 
+2026-03-11 16:25:13.5168 Info ✅ SUB: Execute inbound_invoice success. 
+2026-03-11 16:25:13.6944 Info Staging truncated. 
+2026-03-11 16:25:13.6944 Info ------End Overdue Invoice Job------ 
